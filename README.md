@@ -11,18 +11,19 @@ A simple React Native app that fetches and displays user data from a public API.
 
 1. Clone the repository:
    git clone https://github.com/Ayush8285/User-Information-App.git
+   
    cd UserInfoApp
 
-2. Install dependencies:
+3. Install dependencies:
    npm install
 
-3. Start the Metro bundler:
+4. Start the Metro bundler:
    npx react-native start
 
-4. Run the app on Android:
+5. Run the app on Android:
    npx react-native run-android
 
-5. Run the app on iOS (Mac only):
+6. Run the app on iOS (Mac only):
    npx react-native run-ios
 
 ## Technologies Used
