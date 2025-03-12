@@ -49,7 +49,7 @@ const UserScreen = ({ users = [] }) => {
 
         {/* User Details */}
         <View style={styles.infoContainer}>
-          {/* First Name & Last Name in One Row */}
+          {/* First Name & Last Name */}
           <View style={styles.row}>
             <View style={styles.halfField}>
               <Text style={styles.label}>First Name</Text>
@@ -76,7 +76,7 @@ const UserScreen = ({ users = [] }) => {
             </View>
           </View>
 
-          {/* Username - Full Width */}
+          {/* Username */}
           <View style={styles.fullField}>
             <Text style={styles.label}>Username</Text>
             <View style={styles.inputContainer}>
@@ -89,7 +89,7 @@ const UserScreen = ({ users = [] }) => {
             </View>
           </View>
 
-          {/* Email - Full Width */}
+          {/* Email */}
           <View style={styles.fullField}>
             <Text style={styles.label}>Email</Text>
             <View style={styles.inputContainer}>
@@ -103,7 +103,7 @@ const UserScreen = ({ users = [] }) => {
             </View>
           </View>
 
-          {/* Password - Full Width */}
+          {/* Password */}
           <View style={styles.fullField}>
             <Text style={styles.label}>Password</Text>
             <View style={styles.inputContainer}>
@@ -117,7 +117,7 @@ const UserScreen = ({ users = [] }) => {
             </View>
           </View>
 
-          {/* ID & UID in One Row */}
+          {/* ID & UID */}
           <View style={styles.row}>
             <View style={styles.halfField}>
               <Text style={styles.label}>ID</Text>
@@ -160,7 +160,7 @@ const UserScreen = ({ users = [] }) => {
   );
 };
 
-// ✅ **Updated Styling**
+// **Styling**
 const styles = StyleSheet.create({
   container: {
     flex: 1,
